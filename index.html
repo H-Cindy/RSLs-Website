@@ -4,45 +4,184 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>Residential Sustainability Leaders</title>
-
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/site.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
-    <header>
-        <h1>Residential Sustainability Leaders</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="selected"><a href="join-us.html">Join Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container-fluid">
+        <header>
+            <div class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="container-fluid text-center">
+                <a href="index.html">
+                    <img class="" src="images/rsl_trans.png" width="300" height="61"
+                        alt="Cornell Computer Reuse Association Logo">
+                </a>
 
-    <main>
+                <nav class="navbar navbar-expand-md">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="projects.html">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="resources.html">Resources</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-join-us.html">Contact/Join Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
 
-        <h2>About us</h2>
-        <p>Residential Sustainability Leaders (RSL) is a volunteer program open to all Cornell students who want to learn about climate change, sustainability, and environmental justice. RSLs develop teamwork and leadership skills, and engage peers in building a culture of sustainability across campus. RSLs work in collaboration with the Campus Sustainability Office, Housing & Residential Life, and multiple other departments to identify issues, foster sustainable behaviors, and implement real solutions to advance sustainability within Cornell's residential communities.</p>
 
-		<h2>Teams</h2>
-		<ul>
-			<li>Terracycle</li>
-			<li>Dining: The Dining/Eateries subteam deals with sustainability issues within dining halls and eateries on campus. As students who regularly frequent these locations, we are uniquely familiar with their sustainability issues and seek to develop solutions to these problems.</li> 
-			<li>Sustainable Room Certification: Our group is currently working on launching an engagement program within residential dorms that ranks students’ living habits based on their sustainability efforts. To successfully launch this program, we are tailoring a survey that aims to accurately capture students’ daily habits and preferences while keeping in mind how we could further motivate and promote sustainable lifestyles.</li>
-			<li>Educational Outreach</li>
-			<!-- <li>Cornell Reuse and Repair Network</li> -->
-			<li>Website: The web development team creates and maintains an up-to-date organization website.</li>
-		</ul>
+        </header>
 
-		<!-- <h2>Past Projects</h2>
-			<ul>
-				<li>Reusable Takeout Containers</li>
-				<li>Pumpkin Composting</li>
-			</ul> -->
+        <main>
+            <h4>About Us</h4>
+            <div class="row">
+                <div class="col-md">
+                    <p>Residential Sustainability Leaders (RSL) is a volunteer program open to all Cornell students who
+                        want to learn about climate change, sustainability, and environmental justice. RSLs develop
+                        teamwork and leadership skills, and engage peers in building a culture of sustainability across
+                        campus. RSLs work in collaboration with the Campus Sustainability Office, Housing & Residential
+                        Life, and multiple other departments to identify issues, foster sustainable behaviors, and
+                        implement real solutions to advance sustainability within Cornell's residential communities.</p>
+                </div>
+                <div class="col-md">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                        </div>
 
-    </main>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/rsl_orange.png" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/rsl_white.png" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/rsl_orange.png" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/rsl_white.png" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/rsl_orange.png" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/rsl_white.png" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="section">Teams</h4>
+            <div class="row">
+                <div class="col-md">
+                    <h6>Terracyle</h6>
+                    <p>Description coming soon!</p>
+
+                    <h6>Dining</h6>
+                    <p>The Dining/Eateries subteam deals with sustainability issues within dining halls and eateries on
+                        campus. As students who regularly frequent these locations, we are uniquely familiar with their
+                        sustainability issues and seek to develop solutions to these problems.</p>
+
+                    <h6>Sustainable Room Certification</h6>
+                    <p>Our group is currently working on launching an engagement program within residential dorms that
+                        ranks students’ living habits based on their sustainability efforts. To successfully launch this
+                        program, we are tailoring a survey that aims to accurately capture students’ daily habits and
+                        preferences while keeping in mind how we could further motivate and promote sustainable
+                        lifestyles.</p>
+                </div>
+
+                <div class="col-md">
+                    <h6>Educational Outreach</h6>
+                    <p>Description coming soon!</p>
+
+                    <h6>Cornell Reuse and Repair Network</h6>
+                    <p>Description coming soon!</p>
+
+                    <h6>Website</h6>
+                    <p>The web development team creates and maintains an up-to-date organization website — you're
+                        looking at it right now!</p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="container-fluid text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md">
+                        <p class="float-md-start">© Cornell Residential Sustainability Leaders 2023</p>
+                    </div>
+                    <div class="col-md">
+                        <a class="float-md-end"
+                            href="https://www.facebook.com/Cornell-Computer-Reuse-Association-418484831551199/"
+                            target="_blank">
+                            <img class="" src="images/facebook-icon.png" width="30" height="30" alt="facebook logo">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md">
+                        <p class="float-md-start"><a href="about-this-website.html">About this Website</a></p>
+                    </div>
+                    <div class="col-md">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- <script src="scripts/jquery-3.6.2.min.js"></script> -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
